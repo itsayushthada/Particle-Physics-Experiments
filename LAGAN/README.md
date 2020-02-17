@@ -14,3 +14,12 @@ as a comment or markdown.
 | **Input** | 2D representations of Energy Depositions from Particles Interacting with a Calorimeter|
 | **Output** | Production of realistic radiation Patterns from Simulated High Energy Particle Collisions.|
 | **Baseline** | Faster Simulation than MCMC Sampling in High Energy Particle Physics.|
+
+### Main References
+
+| Properties  | Values  | 
+| ------------- |:-------------:| 
+| **Data** | [![DOI](https://zenodo.org/badge/74294060.svg)](https://zenodo.org/badge/latestdoi/74294060) |
+| **Original Paper** | [arXiv Paper](https://arxiv.org/abs/1701.05927)|
+| **Official Repo** | [GitHub Repo](https://github.com/hep-lbdl/adversarial-jets)|
+| **Authors** | Luke de Oliveira, Michela Paganini, and Benjamin Nachman|
