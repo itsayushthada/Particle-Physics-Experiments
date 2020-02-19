@@ -1,5 +1,5 @@
 # Source: https://gist.github.com/guillefix/23bff068bdc457649b81027942873ce5
-# coding: utf-8
+# Upto line 182
 
 # In[1]:
 
@@ -182,35 +182,12 @@ def conv2d_local(input, weight, bias=None, padding=0, stride=1, dilation=1):
 
 # In[8]:
 
+# My Reshape implmentation similar to Reshape in Tensorflow
 
-# lc = Conv2dLocal(3, 3, 64, 2,3)
+class Reshape(nn.Module):
+    def __init__(self, *args):
+        super(Reshape, self).__init__()
+        self.shape = args
 
-
-# In[9]:
-
-
-# lc(torch.autograd.Variable(torch.randn((1,64,3,3))))
-
-
-# In[43]:
-
-
-# x=torch.autograd.Variable(torch.randn((64,6,6)))
-
-
-# In[47]:
-
-
-# lc._backend.SpatialConvolutionLocal??
-
-
-# In[58]:
-
-
-# from torch.nn import Conv2dLocal
-
-
-# In[59]:
-
-
-# Conv2dLocal??
+    def forward(self, x):
+        return x.view(self.shape)
