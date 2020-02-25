@@ -2,6 +2,9 @@
 
 For this task, my aim is to analyse the mass spectrum of particle decaying into muon-antimuon [dimuon] pairs & figure out the mass of Z boson. The mass of Z boson can be looked up at the PDG, but that's not cool.
 
+### Data Selection Process
++ **Zmumu**: An event was selected if there were two muons in the event with pT > 20 GeV and |eta| < 2.1 and the invariant mass of the two muons was > 60 GeV and < 120 GeV.
+
 ### Project Details
 
 | Properties  | Values  | 
@@ -29,7 +32,7 @@ For this task, my aim is to analyse the mass spectrum of particle decaying into 
 
 | Properties  | Values  | 
 | ------------- |:-------------:| 
-| **Data** | [![DOI](https://zenodo.org/badge/74294060.svg)](http://opendata.cern.ch/record/545) |
+| **Data** | [CERN OpenData](http://opendata.cern.ch/record/545) |
 | **Original Paper** | |
 | **Official Repo** | |
 | **Authors** |  |
