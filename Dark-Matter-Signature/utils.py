@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from sklearn.metrics import accuracy_score, precision_score, recall_score, roc_curve, auc
-import skplt
+import scikitplot as skplt
 
 def evaluate_performace(y_true, y_pred, threshold=0.5):
     y_probs = np.hstack([y_pred.reshape(-1, 1), 1-y_pred.reshape(-1, 1)])
